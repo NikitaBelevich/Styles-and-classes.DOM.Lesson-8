@@ -10,5 +10,33 @@ input[type="number"]{
 }
 
 
+.notification-default {
+    position: fixed;
+    top: -55px;
+    /* right: 0; */
+    box-sizing: border-box;
+    padding: 12px;
+    
+    min-height: 50px;
+    max-height: 250px;
+    min-width: 120px;
+    max-width: 400px;
+    
+    visibility: hidden;
+    opacity: 0;
+
+    overflow-x: auto;
+    border: 1px solid #000;
+    transition: opacity .4s ease-out, top .2s ease-out;
+}
+.notifi-mod {
+    border: 2px solid #36216d;
+    border-style: ridge;
+    font-size: 1.3rem;
+    text-align: center;
+    /* line-height: 48px; */
+    background: radial-gradient(circle at bottom right, #bebebe -25%, #4a4a4a 69%);
+    color: #fff;
+}
 
 
